@@ -1,6 +1,6 @@
 pkgname=autoconf
 pkgver=2.72
-pkgrel=${pkgrel:-0}
+pkgrel=0
 pkgdesc="GNU tool for automatically configuring source code"
 url="https://www.gnu.org/software/autoconf"
 arch="all"
@@ -35,7 +35,6 @@ package() {
 }
 
 
-options="$options ${DISABLE_CHECK:+!check}"
 sha512sums="
 3f71d459e2127ef2c98b37f11f5284f0c92318ad8d31c5b6034bed370adfe9f3d0f7a12f87e2efced06c11e2a159de4d4a292b751104e83daf11342f25ba9721  autoconf-2.72.tar.gz
 "
